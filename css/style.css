@@ -281,9 +281,9 @@ header {
 }
 .audio {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
-.container {
-}
+
 .audio__content {
   display: flex;
   flex-direction: row;
@@ -304,6 +304,49 @@ header {
   opacity: 50%;
   font-size: 15px;
   font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.footer {
+  margin-top: 100px;
+  background-color: var(--lighter-black);
+}
+.footer__content {
+  padding: 75px 0 48px 0;
+}
+.footer__nav-bar {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.footer__description {
+  padding-top: 36px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__description-text {
+  max-width: 540px;
+  color: white;
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.footer__menu-smd {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer__copyright {
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: 700;
   line-height: 25px;
   text-align: left;
 }
