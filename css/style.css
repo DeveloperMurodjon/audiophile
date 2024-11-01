@@ -76,13 +76,12 @@ h5 {
   max-width: 1110px;
 }
 header {
-  background-color: var(--lighter-black);
-}
-.header .container {
-  height: 100vh;
-  background-position: calc(130%) /*right*/;
+  background-color: #0e0e0e;
+  background-position: calc(100% - 121px) 0;
   background-repeat: no-repeat;
   background-image: url(../image/xx-99-II-headphones.png);
+}
+.header .container {
 }
 .navigation {
   border-bottom: 1.5px solid #5b5b5b;
@@ -111,6 +110,7 @@ header {
 }
 .hero {
   margin-top: 128px;
+  padding-bottom: 158px;
   gap: 24px;
   max-width: 398px;
   align-items: start;
