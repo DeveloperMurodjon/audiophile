@@ -106,6 +106,9 @@ header {
   letter-spacing: 2px;
   color: var(--white);
 }
+.list__item:hover {
+  color: var(--orange);
+}
 .hero {
   margin-top: 128px;
   gap: 24px;
@@ -141,6 +144,9 @@ header {
   line-height: 17.76px;
   font-size: 13px;
   font-weight: 700;
+}
+.sell:hover {
+  background-color: #fbaf85;
 }
 .devices {
   padding-top: 200px;
@@ -180,6 +186,9 @@ header {
   color: var(--black);
   font-weight: 700;
 }
+.shop:hover {
+  color: #d87d4a;
+}
 .zx9-speaker {
   padding-bottom: 24px;
 }
@@ -217,6 +226,9 @@ header {
   color: #f1f1f1;
   background-color: #000000;
 }
+.zx9-speaker .sell:hover {
+  background-color: #4c4c4c;
+}
 .zx7-speaker {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -239,6 +251,10 @@ header {
   border: 1px solid black;
   color: black;
   background-color: transparent;
+}
+.zx7-speaker .sell:hover {
+  color: white;
+  background-color: black;
 }
 .yx1-earphones {
   margin-top: 24px;
@@ -272,16 +288,19 @@ header {
   flex-direction: column;
   align-items: start;
 }
-.yx1-earphones__main-title {
-}
+
 .yx1-earphones .sell {
   border: 1px solid black;
   color: black;
   background-color: transparent;
 }
+.yx1-earphones .sell:hover {
+  color: white;
+  background-color: black;
+}
 .audio {
   margin-top: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .audio__content {
@@ -341,6 +360,14 @@ header {
   display: flex;
   flex-direction: row;
   gap: 16px;
+}
+.footer__menu-smd-link img {
+  filter: grayscale(1); /* Bosh holatda oq-qora */
+  transition: 0.3s;
+}
+.footer__menu-smd-link img:hover {
+  filter: invert(46%) sepia(59%) saturate(689%) hue-rotate(353deg)
+    brightness(96%) contrast(89%);
 }
 .footer__copyright {
   color: #ffffff;
