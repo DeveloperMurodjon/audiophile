@@ -217,10 +217,20 @@ header {
   color: #f1f1f1;
   background-color: #000000;
 }
+.zx7-speaker {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .zx7-speaker .container {
+  overflow: hidden;
+  background-image: url(../image/zx7-speaker.png);
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
 }
 .zx9-spaeker__content {
   padding: 101px 0;
+  padding-left: 95px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,4 +239,71 @@ header {
   border: 1px solid black;
   color: black;
   background-color: transparent;
+}
+.yx1-earphones {
+  margin-top: 24px;
+  padding-bottom: 10rem;
+}
+.yx1-earphones__content {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.yx1-earphones__img-card {
+  max-height: 320px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.yx1-earphones__img-card img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.yx1-earphones-card {
+  border-radius: 8px;
+  padding: 101px 198px 101px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.yx1-earphones__main-title {
+}
+.yx1-earphones .sell {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+.audio {
+  margin-top: 100px;
+}
+.container {
+}
+.audio__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.audio__card {
+  flex-direction: column;
+  display: flex;
+  gap: 32px;
+  max-width: 445px;
+  text-align: left;
+}
+.audio__main-title {
+  text-transform: uppercase;
+}
+.audio__description {
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
 }
