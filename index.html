@@ -8,14 +8,111 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="header">
         <div class="container">
-          <div class="navigation"></div>
+          <nav class="navigation">
+            <a href="index.html" class="logo">
+              <img src="./image/logo.png" alt="logo audiophile" />
+            </a>
+            <ul class="menu">
+              <li class="menu__list list">
+                <a href="/index.html" class="list__item">HOME</a>
+              </li>
+              <li class="menu__list list">
+                <a href="./pages/headphones.html" class="list__item"
+                  >HEADPHONES</a
+                >
+              </li>
+              <li class="menu__list list">
+                <a href="./pages/speakers.html" class="list__item">SPEAKERS</a>
+              </li>
+              <li class="menu__list list">
+                <a href="./pages/earphones.html" class="list__item"
+                  >EARPHONES</a
+                >
+              </li>
+            </ul>
+            <a href="./pages/collection.html" class="market">
+              <img
+                src="./image/market-icon.png"
+                alt="collection-button"
+                class="market__img"
+              />
+            </a>
+          </nav>
+          <div class="hero">
+            <p class="hero__description">NEW PRODUCT</p>
+            <h1 class="hero__main-title main-title">XX99 Mark II Headphones</h1>
+            <p class="main-title__description">
+              Experience natural, lifelike audio and exceptional build quality
+              made for the passionate music enthusiast.
+            </p>
+            <a href="./collection" class="sell">See Product</a>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
     <menu>
-      <section><div></div></section>
+      <!-- DEVICES -->
+      <section class="devices">
+        <div class="container">
+          <div class="devices__card devices__headphones-card">
+            <img
+              class="devices__img"
+              src="./image/headphones.png"
+              alt="headphones"
+            />
+            <h4 class="devices__title">HEADPHONES</h4>
+            <a href="./pages/collection.html" class="shop">
+              <span>SHOP</span>
+              <img src="./image/arrow-right.png" alt="shop icon" />
+            </a>
+          </div>
+          <div class="devices__card devices__speakers-card">
+            <img
+              class="devices__img"
+              src="./image/sspeakers.png"
+              alt="speakers"
+              style="margin-bottom: 47px"
+            />
+            <h4 class="devices__title">EARPHONES</h4>
+            <a href="./pages/collection.html" class="shop">
+              <span>SHOP</span>
+              <img src="./image/arrow-right.png" alt="shop icon" />
+            </a>
+          </div>
+          <div class="devices__card devices__earphones-card">
+            <img
+              class="devices__img"
+              src="./image/earphones.png"
+              alt="earphones"
+            />
+            <h4 class="devices__title">EARPHONES</h4>
+            <a href="./pages/collection.html" class="shop">
+              <span>SHOP</span>
+              <img src="./image/arrow-right.png" alt="shop icon" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="zx9-speaker">
+        <div class="container">
+          <div class="zx9-speaker__content">
+            <h2 class="zx9-speaker__title">ZX9 SPEAKER</h2>
+            <p class="zx9-speaker__description">
+              Upgrade to premium speakers that are phenomenally built to deliver
+              truly remarkable sound.
+            </p>
+            <a href="./collection" class="sell">See Product</a>
+          </div>
+        </div>
+      </section>
+      <section class="zx7-speaker">
+        <div class="zx9-spaeker__content">
+          <h4 class="zx7-speaker__main-title">ZX7 SPEAKER</h4>
+          <a href="./collection" class="sell">See Product</a>
+        </div>
+      </section>
     </menu>
     <footer></footer>
   </body>
